@@ -21,7 +21,7 @@ const blockAttr = {
 	}
 };
 
-registerBlockType( 'rt-blocks/rt-editable-block0', {
+registerBlockType( 'rt-blocks/rt-editable-block001', {
 	title: __( 'RT Editable Block' ),
 	icon: 'universal-access-alt',
 	category: 'common',

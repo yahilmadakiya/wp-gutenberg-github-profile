@@ -2,7 +2,7 @@
  * Creates RichText block.
  */
 const { __ } = wp.i18n;
-const { registerBlockType, source: { children } } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
 import Profile from './profile.js';
 
 const blockAttr = {

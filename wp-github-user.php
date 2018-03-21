@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: WP Github User
- * Description: Simple Gutenberg Boilerplate for plugin development
- * Author: rtCamp, sagarkbhatt, sayed, utkarsh
- * Author URI: https://rtcamp.com/
- * Version: 0.1
+ * Description: Simple Gutenberg Block to fetch user data from github.
+ * Author: Yahil
+ * Author URI: http://yahilmadakiya.github.io/
+ * Version: 1.0
  * License: GPLv2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: rt-blocks
+ * Text Domain: WP_Github_User
  *
  * @package WP_Github_User
  */

@@ -2,10 +2,10 @@
 /**
  * Trait Singleton
  *
- * @package rtBlocks
+ * @package WP_Github_User
  */
 
-namespace rtBlocks\Traits;
+namespace WP_Github_User\Traits;
 
 /**
  * Trait Singleton

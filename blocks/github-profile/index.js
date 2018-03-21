@@ -21,8 +21,9 @@ const blockAttr = {
 	}
 };
 
-registerBlockType( 'rt-blocks/rt-editable-block001', {
-	title: __( 'RT Editable Block' ),
+registerBlockType( 'rt-blocks/git-profile', {
+	title: __( 'Github Profile' ),
+	description: __( 'Fetch data from github' ),
 	icon: 'universal-access-alt',
 	category: 'common',
 	attributes: blockAttr,

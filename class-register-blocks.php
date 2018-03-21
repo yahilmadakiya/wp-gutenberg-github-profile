@@ -2,19 +2,19 @@
 /**
  * Register plugin blocks
  *
- * @package rtBlocks
+ * @package WP_Github_User
  */
 
-namespace rtBlocks\Gutenblocks;
+namespace WP_Github_User\Gutenblocks;
 
 /**
  * Class Register_Blocks
  *
- * @package rtBlocks\Gutenblocks
+ * @package WP_Github_User\Gutenblocks
  */
 class Register_Blocks {
 
-	use \rtBlocks\Traits\Singleton;
+	use \WP_Github_User\Traits\Singleton;
 
 	/**
 	 * Initialize Block.
@@ -24,14 +24,14 @@ class Register_Blocks {
 	}
 
 	/**
-	 * Register gutenberg lyrics block
+	 * Register gutenberg GITHUB block
 	 */
 	public function register_sample_block() {
 		wp_enqueue_script(
 			'gutenberg-sample-block',
-			RT_BLOCKS_DIR_URL . 'blocks/build/build.js',
+			WP_GITHUB_USER_URL . 'blocks/build/build.js',
 			array( 'wp-blocks', 'wp-i18n', 'wp-element' ),
-			RT_BLOCKS_DIR_URL
+			WP_GITHUB_USER_VER
 		);
 	}
 }
